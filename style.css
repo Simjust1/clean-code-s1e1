@@ -13,7 +13,8 @@ body {
 .header__image {
   width: 100%;
 }
-.header .more_inf {
+.header,
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -26,7 +27,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task-item__input, .task-item__label {
+.task-item__input,
+.task-item__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;

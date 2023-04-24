@@ -121,7 +121,11 @@ label[for="new-task"] {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.incomplete-tasks__item input[type="checkbox"] {
+  margin: 0 10px;
+}
+
+.completed-tasks__item input[type="checkbox"] {
   margin: 0 10px;
 }
 
@@ -131,7 +135,10 @@ li > input[type="checkbox"] {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+.incomplete-tasks__item input[type="text"] {
+  width: 226px;
+}
+.completed-tasks__item input[type="text"] {
   width: 226px;
 }
 .button_delete img {

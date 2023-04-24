@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
+      <img src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix" class="header__image">
       <a class="more_inf"
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
       </a>
@@ -15,20 +15,20 @@
       <section id="task-list">
         <label for="new-task">Add Item</label>
         <div class="task-item">
-          <input id="new-task"class="task-item__input" type="text">
+          <input id="new-task"class="task-item__input input_new-task" type="text">
           <button>Add</button>
         </div>
       </section>
       <section>
-        <h3>Todo</h3>
-        <ul id="incomplete-tasks">
-          <li>
+        <h3 class="task-list__heading">Todo</h3>
+        <ul class="incomplete-tasks">
+          <li class="incomplete-tasks__item">
             <input type="checkbox"><label class="task-item__label">Pay Bills</label>
             <input type="text" class="task-item__input">
             <button class="button button_edit">Edit</button>
             <button class="button button_delete"><img src="./remove.svg" alt="Remove"></button>
           </li>
-          <li class="editmode">
+          <li class="incomplete-tasks__item editmode">
             <input type="checkbox"><label class="task-item__label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-item__input">
             <button class="button button_edit">Save</button>
@@ -36,10 +36,10 @@
         </ul>
       </section>
       <section>
-        <h3>Completed</h3>
-        <ul id="completed-tasks">
-          <li>
-            <input type="checkbox" checked><label class="task-item__input">See the Doctor</label>
+        <h3 class="task-list__heading">Completed</h3>
+        <ul class="completed-tasks">
+          <li class="completed-tasks__item">
+            <input type="checkbox" checked><label class="task-item__label">See the Doctor</label>
             <input type="text" class="task-item__input">
             <button class="button button_edit">Edit</button>
             <button class="button button_delete"><img src="./remove.svg" alt="Remove"></button>
